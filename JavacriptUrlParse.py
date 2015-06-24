@@ -10,7 +10,7 @@ __status__ = "Prototype"
 user_input = input('Enter your data: ')
 
 def RemoveProperNames(user_input):
-    toPrint = user_input.replace('berber_','').replace('beni_','').replace('talsint_','').replace('vintage_','')
+    toPrint = user_input.replace('berber_','').replace('beni_','').replace('talsint_','').replace('vintage_','').replace('ooak_','').replace('rib_eye_','').replace('sumak_','').replace('dhingri_','')
     return toPrint
 
 toPrint = RemoveProperNames(user_input)
@@ -124,10 +124,14 @@ def SizeFilter(toPrint):
     length_in = myData['inch']
 
 #Over-estimation of feet
-    if width_in > 0:
+    if width_in == "00":
+        width = int(width_ft)
+    else:
         width = int(width_ft)+1
 
-    if length_in > 0:
+    if length_in == "00":
+        length = int(length_ft)
+    else:
         length = int(length_ft)+1
 
 #Filter into Website filters
