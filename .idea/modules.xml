@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavascriptUrlParse.iml" filepath="$PROJECT_DIR$/.idea/JavascriptUrlParse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PythonDataParse/.idea/PythonDataParse.iml" filepath="$PROJECT_DIR$/../PythonDataParse/.idea/PythonDataParse.iml" />
     </modules>
   </component>
 </project>
