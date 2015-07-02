@@ -300,11 +300,11 @@ def SizeFilter(toPrint): # Format to website filters
             website_size = "runner" 
         
     elif (width_feet <= 9):
-        if (length <= 12):
+        if (length_feet <= 12):
             website_size = "9x12"
-        elif (length <= 14):
+        elif (length_feet <= 14):
             website_size = "10x14"
-        elif (length < 27):
+        elif (length_feet < 27):
             website_size = "10x14+"  
         else:
             website_size = "runner"
